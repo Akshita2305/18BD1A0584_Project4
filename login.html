@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Login page</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <style>
+      body
+      {
+         background-color:#3DD4DF;
+      }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">E-PASS CERTIFICATE</h1>
+    <form action="/login" method="post">
+        First name: <input type="text" placeholder="First name" name="fname" required>
+        <br>
+        <br>
+        Last name: <input type="text" placeholder="Last name" name="lname">
+        <br>
+        <br>
+        Email: <input type="email" placeholder="e-mail" name="email" required>
+        <br>
+        <br>
+        State: <input type="text" placeholder="state" name="state" required>
+        <br>
+        <br>
+        District: <input type="text" placeholder="source" name="district" required>
+        <br>
+        <br>
+        Destination state: <input type="text" placeholder="destination state" name="dest_state" required>
+        <br>
+        <br>
+        Destination: <input type="text" placeholder="destination" name="dest_place" required>
+        <br>
+        <br>
+        Aadhaar card: <input type="text" placeholder="Aadhaar card" name="aadhaar" required>
+        <br>
+        <br>
+        Telephone: <input type="number" placeholder="phone no." name="phone" required>
+        <br>
+        <br>
+        Date of travel: <input type="date" name="date" required>
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
